@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addStd">
+
+    <EditText
+        android:id="@+id/std_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter student name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <EditText
+        android:id="@+id/std_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter student Unique Id"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <RadioGroup
+        android:layout_width="342dp"
+        android:layout_height="243dp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="186dp">
+
+        <TextView
+            android:id="@+id/branch"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:gravity="center|left"
+            android:text="Choose Student's Branch"
+            android:textColor="#070707"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/AIDA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Analytics and Artificial Intelligence" />
+
+        <RadioButton
+            android:id="@+id/AIML"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Artificial Intelligence and Machine Learning" />
+
+        <RadioButton
+            android:id="@+id/iot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IOT and Cyber Security" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButton" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/head1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD STUDENTS"
+        android:textColor="#040404"
+        android:textSize="37sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <EditText
+        android:id="@+id/logPass"
+        android:layout_width="213dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Set Login Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
